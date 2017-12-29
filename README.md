@@ -18,7 +18,7 @@ If you want to run this thing as-is, here's a brief idea of what it does.  It's 
         exit                       ## Shuts down this server
 
 Some notes:
-- "orderID" in the commmand params is the orderID assigned, NOT the clientOrderID of the message received.
+- "orderID" in the command params is the orderID assigned, NOT the clientOrderID of the message received.
 - It supports multiple concurrent clients (nice!).
 - It has no logic for dealing with sequence number issues (not so nice)
 - If you have issues, I recommend clearing quickfix cache, setting seqnos to 1, and trying again
